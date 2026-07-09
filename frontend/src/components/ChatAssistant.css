@@ -1,0 +1,156 @@
+.chat-container{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    
+    
+}
+
+.chat-header{
+    padding-bottom:18px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.chat-title{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.robot-icon{
+    font-size:28px;
+    color:#2563eb;
+}
+
+.chat-title h2{
+    font-size:20px;
+    color:#1f2937;
+    margin-bottom:4px;
+}
+
+.chat-title p{
+    font-size:13px;
+    color:#6b7280;
+}
+
+
+/* Chat messages area */
+.chat-body{
+    height:420px;
+    overflow-y:auto;
+    flex: 1;
+    display:flex;
+    flex-direction:column;
+
+    padding:10px;
+
+    gap:10px;   /* messages ke beech spacing */
+}
+
+
+/* User message */
+.user-message{
+    background:#2d6cdf;
+    color:white;
+
+    padding:10px 14px;
+
+    border-radius:10px;
+
+    margin-bottom:10px;
+
+    align-self:flex-end;
+
+    font-size:12px;
+    line-height:1.4;
+
+    max-width:75%;
+   
+
+    word-wrap:break-word;
+}
+
+
+/* AI message */
+
+   .ai-message{
+    background:#eef4ff;
+    border:1px solid #dbeafe;
+
+    padding:10px 14px;
+    border-radius:12px;
+
+    margin-bottom:10px;
+
+    align-self:flex-start;
+
+    display:inline-block;
+    width:fit-content;
+    max-width:75%;
+
+    white-space:pre-wrap;
+    word-break:break-word;
+
+    font-size:13px;
+    line-height:1.5;
+    color:#374151;
+}
+
+
+.ai-message ul{
+    margin:8px 0 0;
+    padding-left:18px;
+}
+
+.ai-message li{
+    margin-bottom:5px;
+}
+
+
+/* Input */
+.chat-input{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+.chat-input input{
+    flex:1;
+
+    padding:13px;
+
+    border-radius:10px;
+
+    border:1px solid #d1d5db;
+
+    outline:none;
+
+    font-size:14px;
+}
+
+.chat-input input:focus{
+    border-color:#2563eb;
+}
+
+
+.chat-input button{
+    width:52px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.chat-input button:hover{
+    background:#1d4ed8;
+}
