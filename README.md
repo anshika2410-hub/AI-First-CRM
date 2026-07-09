@@ -36,12 +36,6 @@ An AI-powered Customer Relationship Management (CRM) application for pharmaceuti
 
 ---
 
-### AI Chat Assistant
-
-![Home](screenshots/home.png)
-
----
-
 ### Automatic Form Autofill
 
 ![Auto Fill](screenshots/autofill.png)
@@ -54,21 +48,26 @@ An AI-powered Customer Relationship Management (CRM) application for pharmaceuti
 
 ---
 
-### Interaction History
-
-![History](screenshots/history.png)
-
----
-
 ### Doctor Availability
 
 ![Availability](screenshots/availability.png)
 
 ---
+## Interaction History and Summary
 
-### Interaction Summary
+<table>
+<tr>
+<td align="center">
+<b>Interaction History</b><br><br>
+<img src="screenshots/history.png" width="450"/>
+</td>
 
-![Summary](screenshots/summary.png)
+<td align="center">
+<b>Interaction Summary</b><br><br>
+<img src="screenshots/summary.png" width="450"/>
+</td>
+</tr>
+</table>
 
 ## LangGraph Tools Implemented
 
