@@ -10,7 +10,7 @@ An AI-powered Customer Relationship Management (CRM) application for pharmaceuti
 
 ![Groq](https://img.shields.io/badge/LLM-Groq-purple)
 
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightblue)  
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightblue)   
 
 ---
 
